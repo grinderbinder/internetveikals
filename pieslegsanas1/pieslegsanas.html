@@ -1,0 +1,63 @@
+<html> 
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<center><img src="atteli/login.jpg" alt="Trulli" width="40" height="35" ><h1>Tev jau ir profils? Pieslēdzies</h1></center>
+<style> 
+Body {
+  font-family: Calibri, Helvetica, sans-serif;
+  background-color: lightyellow;
+}
+button { 
+       background-color:rgb(68, 67, 67); (0, 0, 0); 
+       width: 100%;
+        color: white; 
+        padding: 15px; 
+        margin: 10px 0px; 
+        border: none; 
+        cursor: pointer; 
+         } 
+ form { 
+        border: 3px solid #f1f1f1; 
+    } 
+ input[type=text], input[type=password] { 
+        width: 100%; 
+        margin: 8px 0;
+        padding: 12px 20px; 
+        display: inline-block; 
+        border: 2px solid rgb(66, 66, 66); 
+        box-sizing: border-box; 
+    }
+ button:hover { 
+        opacity: 0.7; 
+    } 
+  .cancelbtn { 
+        width: auto; 
+        padding: 10px 18px;
+        margin: 10px 5px;
+    } 
+      
+   
+ .container { 
+        padding: 25px; 
+        background-color:rgb(204, 204, 170);
+    } 
+</style> 
+</head>  
+<body>  
+
+    <form>
+        <div class="container"> 
+            <img src="atteli/lietot.png" alt="Trulli" width="30" height="30" > <label>Lietotājvārds : </label> 
+            <input type="text" placeholder="Ievadiet lietotājvārdu" name="username" required>
+            <img src="atteli/par.png" alt="Trulli" width="20" height="25" ><label>Parole : </label> 
+            <input type="Parole" placeholder="Ievadiet paroli" name="password" required>
+            <button type="submit">Pieslēgties</button> 
+            <input type="checkbox" checked="checked"> Atcerēties mani 
+            <button type="button" class="cancelbtn"> Atcelt</button> 
+            Aizmirsi <a href="#"> paroli? </a> 
+           <p> <input type="button" value="Atgriezties sākumlapā" onclick="history.back()"></p>
+            Nepieciešama <a href="#"> palīdzība? </a> <img src="atteli/jaut.png" alt="Trulli" width="35" height="30" >
+        </div> 
+    </form>   
+</body>   
+</html>
